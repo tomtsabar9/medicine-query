@@ -7,6 +7,10 @@ import { InfoButtonComponent } from './nav-bar/info-button/info-button.component
 import { LanguageComponent } from './nav-bar/language/language.component';
 import { QuickSearchComponent } from './nav-bar/quick-search/quick-search.component';
 
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,9 +20,21 @@ import { QuickSearchComponent } from './nav-bar/quick-search/quick-search.compon
     QuickSearchComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: httpTranslateLoader         ,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+export function httpTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
