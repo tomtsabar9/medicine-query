@@ -10,6 +10,7 @@ import { QuickSearchComponent } from './nav-bar/quick-search/quick-search.compon
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
         useFactory: httpTranslateLoader         ,
         deps: [HttpClient]
       }
-    })
+    }),
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
