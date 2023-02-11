@@ -1,59 +1,50 @@
+.dropdown {
+  position: absolute;
+  top: 32px;
+  left: 82px;
+  width: 98px;
+  height: 32px;
+  border: 2px solid #7151cb99;
+  border-radius: 3px;
+  z-index: 6;
+}
+
 .dropbtn {
     /* UI Properties */
-    font: normal normal normal 14px/21px Okta Neue;
-    letter-spacing: 0px;
+    font:  14px/22px Okta Neue;
     color: #7151CB;
-    opacity: 1;
     vertical-align: middle;
-    margin-left: 10%;
+    margin-left: 6%;
     padding-top: 3.5px;
-    position: absolute;
+    position: relative;
   }
   
   .world {
-    top: 47px;
-    left: 99px;
     width: 18px;
     height: 18px;
     background: transparent url('../../../assets/images/World.svg') 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-left: 8%;
-    margin-top: 5%
-  }
-  
-  
-  .dropdown {
-    position: absolute;
-    display: inline-block;
-    top: 24px;
-    width: 98px;
-    height: 32px;
-    border: 2px solid #7151cb99;
-    border-radius: 3px;
-    margin-left: 24px;
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
     right: 0;
-    padding: 2.5px;
+    left:0;
+    padding-top: 2.5px;
     text-align: center;
     z-index: 1;
-    border-radius: 5px;
     cursor: pointer;
   }
-  
   
   .droptext {
     color: grey;
     font-size: 22px;
-    padding-top: 2.5px;
+    padding-top: 10px;
     text-decoration: none;
     display: block;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
+    font:  22px/22px Okta Neue;
   }
   
   
