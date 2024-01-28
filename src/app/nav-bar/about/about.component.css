@@ -24,7 +24,7 @@
   top: 127px;
   left: 74px;
   /* UI Properties */
-  font: normal normal 600 20px/32px Okta Neue;
+  font: normal normal 600 20px/32px Ariel;
   letter-spacing: 0px;
   color: #7151CB;
   opacity: 1;
@@ -35,7 +35,7 @@
   top: 167px;
   left: 74px;
   /* UI Properties */
-  font: normal normal normal 16px/17px Okta Neue;
+  font: normal normal normal 16px/17px Ariel;
   letter-spacing: 0px;
   color: #594F75;
   opacity: 0.8;
@@ -44,7 +44,7 @@
 
 .bottomtip {
   text-align: center;
-  font: normal normal 600 12px/19px Okta Neue;
+  font: normal normal 600 12px/19px Ariel;
   letter-spacing: 0px;
   color: #7151CB;
   opacity: 1;

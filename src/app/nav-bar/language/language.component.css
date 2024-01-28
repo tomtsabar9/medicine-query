@@ -1,7 +1,7 @@
 .dropdown {
   position: absolute;
   top: 32px;
-  left: 82px;
+  left: 80px;
   width: 98px;
   height: 32px;
   border: 2px solid #7151cb99;
@@ -11,7 +11,7 @@
 
 .dropbtn {
     /* UI Properties */
-    font:  14px/22px Okta Neue;
+    font:  14px/22px Ariel;
     color: #7151CB;
     vertical-align: middle;
     margin-left: 6%;
@@ -44,7 +44,7 @@
     padding-top: 10px;
     text-decoration: none;
     display: block;
-    font:  22px/22px Okta Neue;
+    font:  14px/21px Ariel;
   }
   
   
