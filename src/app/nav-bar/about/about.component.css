@@ -1,18 +1,8 @@
-.about-image
-{
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  background: transparent url('../../../assets/images/AboutIcon.svg') 0% 0% no-repeat padding-box;
-  opacity: 1;
-  z-index: 6;
-}
-
 
 .tooltipa {
   position: absolute;
-  left: 16px;
-  top: 24px;
+  left: 32px;
+  top: 32px;
   display: inline-block;
    z-index: 6;
 }
@@ -34,7 +24,7 @@
   top: 127px;
   left: 74px;
   /* UI Properties */
-  font: normal normal 600 20px/32px Okta Neue;
+  font: normal normal 600 20px/32px Ariel;
   letter-spacing: 0px;
   color: #7151CB;
   opacity: 1;
@@ -45,7 +35,7 @@
   top: 167px;
   left: 74px;
   /* UI Properties */
-  font: normal normal normal 16px/17px Okta Neue;
+  font: normal normal normal 16px/17px Ariel;
   letter-spacing: 0px;
   color: #594F75;
   opacity: 0.8;
@@ -54,7 +44,7 @@
 
 .bottomtip {
   text-align: center;
-  font: normal normal 600 12px/19px Okta Neue;
+  font: normal normal 600 12px/19px Ariel;
   letter-spacing: 0px;
   color: #7151CB;
   opacity: 1;

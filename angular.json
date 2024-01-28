@@ -26,7 +26,22 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/styles/styles.css",
+              {
+                "input": "src/styles/styles-ar.css",
+                "bundleName": "arabicStyle",
+                "inject": true
+              },
+              {
+                "input": "src/styles/styles-en.css",
+                "bundleName": "englishStyle",
+                "inject": true
+              },
+              {
+                "input": "src/styles/styles-he.css",
+                "bundleName": "hebrewStyle",
+                "inject": true
+              }
             ],
             "scripts": []
           },

@@ -1,26 +1,34 @@
-/* The switch - the box around the slider */
+.quick-search {
+  position: absolute;
+  width: max-content;
+  height: 18px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #adaab8;
+  font:  14px/21px Ariel;
+  top: 6px;
+}
+
 .switch {
-  position: relative;
+  position: absolute;
   display: inline-block;
   width: 60px;
   height: 34px;
+  top: 30px;
 }
 
 /* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
-  width: 0;
-  height: 0;
 }
 
 /* The slider */
 .slider {
   position: absolute;
   cursor: pointer;
-  top: 0;
-  left: 0;
+  width: 60px;
+  height: 34px;
   right: 0;
-  bottom: 0;
   background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
@@ -44,24 +52,12 @@ input:checked + .slider {
   background-color: #9d85db;
 }
 
+input:checked ~ .quick-search {
+  color: #9d85db;
+}
+
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
-}
-
-.quick-search {
-  width: max-content;
-  height: 18px;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  color: #adaab8;
-  position: absolute;
-  left: 70px;
-  top: 5px;
 }

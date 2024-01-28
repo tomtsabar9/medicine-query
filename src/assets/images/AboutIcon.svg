@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
   <g id="Info_Icon" data-name="Info Icon" transform="translate(-20 -14)">
-    <text id="i" transform="translate(34.5 35)" fill="#7151cb" font-size="14" font-family="OktaNeue-Bold, Okta Neue" font-weight="700"><tspan x="0" y="0">i</tspan></text>
+    <text id="i" transform="translate(34.5 35)" fill="#7151cb" font-size="14" font-family="Ariel-Bold, Ariel" font-weight="700"><tspan x="0" y="0">i</tspan></text>
     <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(20 14)" fill="none" stroke="#7151cb" stroke-width="1.5" opacity="0.6">
       <rect width="32" height="32" rx="3" stroke="none"/>
       <rect x="0.75" y="0.75" width="30.5" height="30.5" rx="2.25" fill="none"/>
