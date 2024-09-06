@@ -1,1 +1,11 @@
-<p>language works!</p>
+<div class="dropdown">
+  <img src="../../../assets/images/World.svg" class="world"/>
+  <span id="display_lang" class="dropbtn">
+    {{ 'currentLang' | translate }}
+  </span>
+  <div class="dropdown-content">
+    <a *ngFor="let language of translate.getLangs()" class="droptext" (click)="switchLanguage(language)">
+      {{ languageMap.get(language) }}
+    </a>
+  </div>
+</div>

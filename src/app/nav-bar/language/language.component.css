@@ -1,0 +1,54 @@
+.dropdown {
+  position: absolute;
+  top: 32px;
+  left: 80px;
+  width: 98px;
+  height: 32px;
+  border: 2px solid #7151cb99;
+  border-radius: 3px;
+  z-index: 6;
+}
+
+.dropbtn {
+    /* UI Properties */
+    font:  14px/22px Ariel;
+    color: #7151CB;
+    vertical-align: middle;
+    margin-left: 6%;
+    padding-top: 3.5px;
+    position: relative;
+  }
+  
+  .world {
+    width: 18px;
+    height: 18px;
+    background: transparent url('../../../assets/images/World.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 8%;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    left:0;
+    padding-top: 2.5px;
+    text-align: center;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .droptext {
+    color: grey;
+    font-size: 22px;
+    padding-top: 10px;
+    text-decoration: none;
+    display: block;
+    font:  14px/21px Ariel;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  

@@ -1,0 +1,62 @@
+
+.tooltipa {
+  position: absolute;
+  left: 32px;
+  top: 32px;
+  display: inline-block;
+   z-index: 6;
+}
+
+.tooltipa .tooltiptext {
+  background-color: white;
+  color: #000;
+  border-radius: 20px;
+  border-style: solid;
+  background-color: #b09be2!important;
+  padding: 10px;
+  width: 500px;
+
+  /* Position the tooltip */
+   z-index: 6;
+}
+
+.titletip {
+  top: 127px;
+  left: 74px;
+  /* UI Properties */
+  font: normal normal 600 20px/32px Ariel;
+  letter-spacing: 0px;
+  color: #7151CB;
+  opacity: 1;
+  margin: 10px;
+}
+
+.texttip {
+  top: 167px;
+  left: 74px;
+  /* UI Properties */
+  font: normal normal normal 16px/17px Ariel;
+  letter-spacing: 0px;
+  color: #594F75;
+  opacity: 0.8;
+  margin: 10px;
+}
+
+.bottomtip {
+  text-align: center;
+  font: normal normal 600 12px/19px Ariel;
+  letter-spacing: 0px;
+  color: #7151CB;
+  opacity: 1;
+}
+.tooltiptext {
+    top:50px;
+}
+.tooltipborder {
+    display: none;
+    padding-top:40px;
+}
+
+.tooltipa:hover .tooltipborder {
+    display: block;
+  }
